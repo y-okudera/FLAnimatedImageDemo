@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5167A6028212AF49576BA09D /* libPods-FLAnimatedImageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4446E205BE4DD33A32FC67D3 /* libPods-FLAnimatedImageDemo.a */; };
+		914BE7D68A27892F15E1A2B3 /* libPods-FLAnimatedImageDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0EB21A16F736E5D3EAB8552 /* libPods-FLAnimatedImageDemoTests.a */; };
 		FCFACED225810ED20091ADB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACED125810ED20091ADB4 /* AppDelegate.swift */; };
 		FCFACED425810ED20091ADB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACED325810ED20091ADB4 /* SceneDelegate.swift */; };
 		FCFACED625810ED20091ADB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACED525810ED20091ADB4 /* ViewController.swift */; };
@@ -14,6 +16,8 @@
 		FCFACEDB25810ED50091ADB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCFACEDA25810ED50091ADB4 /* Assets.xcassets */; };
 		FCFACEDE25810ED50091ADB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCFACEDC25810ED50091ADB4 /* LaunchScreen.storyboard */; };
 		FCFACEE925810ED50091ADB4 /* FLAnimatedImageDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACEE825810ED50091ADB4 /* FLAnimatedImageDemoTests.swift */; };
+		FCFACEFA258112490091ADB4 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACEF9258112490091ADB4 /* UIImageView+.swift */; };
+		FCFACEFC258112B00091ADB4 /* FLAnimatedImageView+Nuke.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFACEFB258112B00091ADB4 /* FLAnimatedImageView+Nuke.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +31,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10210E64675664B434B47345 /* Pods-FLAnimatedImageDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FLAnimatedImageDemoTests/Pods-FLAnimatedImageDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		4446E205BE4DD33A32FC67D3 /* libPods-FLAnimatedImageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLAnimatedImageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCA1C29BC4E2809499B2425 /* Pods-FLAnimatedImageDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-FLAnimatedImageDemoTests/Pods-FLAnimatedImageDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A1DD8D8F137091E52392D57 /* Pods-FLAnimatedImageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo.release.xcconfig"; path = "Target Support Files/Pods-FLAnimatedImageDemo/Pods-FLAnimatedImageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A5AAA86504B95A9EB3BDD1AA /* Pods-FLAnimatedImageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FLAnimatedImageDemo.debug.xcconfig"; path = "Target Support Files/Pods-FLAnimatedImageDemo/Pods-FLAnimatedImageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B0EB21A16F736E5D3EAB8552 /* libPods-FLAnimatedImageDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FLAnimatedImageDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFACECE25810ED20091ADB4 /* FLAnimatedImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FLAnimatedImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFACED125810ED20091ADB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FCFACED325810ED20091ADB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +48,9 @@
 		FCFACEE425810ED50091ADB4 /* FLAnimatedImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FLAnimatedImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCFACEE825810ED50091ADB4 /* FLAnimatedImageDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLAnimatedImageDemoTests.swift; sourceTree = "<group>"; };
 		FCFACEEA25810ED50091ADB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFACEF4258110A10091ADB4 /* FLAnimatedImageDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FLAnimatedImageDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		FCFACEF9258112490091ADB4 /* UIImageView+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		FCFACEFB258112B00091ADB4 /* FLAnimatedImageView+Nuke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FLAnimatedImageView+Nuke.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5167A6028212AF49576BA09D /* libPods-FLAnimatedImageDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +66,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				914BE7D68A27892F15E1A2B3 /* libPods-FLAnimatedImageDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030848EC0363DD22EC95762D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4446E205BE4DD33A32FC67D3 /* libPods-FLAnimatedImageDemo.a */,
+				B0EB21A16F736E5D3EAB8552 /* libPods-FLAnimatedImageDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D71CBC01056F732930E0FC1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5AAA86504B95A9EB3BDD1AA /* Pods-FLAnimatedImageDemo.debug.xcconfig */,
+				9A1DD8D8F137091E52392D57 /* Pods-FLAnimatedImageDemo.release.xcconfig */,
+				5CCA1C29BC4E2809499B2425 /* Pods-FLAnimatedImageDemoTests.debug.xcconfig */,
+				10210E64675664B434B47345 /* Pods-FLAnimatedImageDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FCFACEC525810ED20091ADB4 = {
 			isa = PBXGroup;
 			children = (
 				FCFACED025810ED20091ADB4 /* FLAnimatedImageDemo */,
 				FCFACEE725810ED50091ADB4 /* FLAnimatedImageDemoTests */,
 				FCFACECF25810ED20091ADB4 /* Products */,
+				9D71CBC01056F732930E0FC1 /* Pods */,
+				030848EC0363DD22EC95762D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +116,7 @@
 		FCFACED025810ED20091ADB4 /* FLAnimatedImageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FCFACEF8258112410091ADB4 /* Extensions */,
 				FCFACED125810ED20091ADB4 /* AppDelegate.swift */,
 				FCFACED325810ED20091ADB4 /* SceneDelegate.swift */,
 				FCFACED525810ED20091ADB4 /* ViewController.swift */,
@@ -86,6 +124,7 @@
 				FCFACEDA25810ED50091ADB4 /* Assets.xcassets */,
 				FCFACEDC25810ED50091ADB4 /* LaunchScreen.storyboard */,
 				FCFACEDF25810ED50091ADB4 /* Info.plist */,
+				FCFACEF4258110A10091ADB4 /* FLAnimatedImageDemo-Bridging-Header.h */,
 			);
 			path = FLAnimatedImageDemo;
 			sourceTree = "<group>";
@@ -99,6 +138,15 @@
 			path = FLAnimatedImageDemoTests;
 			sourceTree = "<group>";
 		};
+		FCFACEF8258112410091ADB4 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FCFACEF9258112490091ADB4 /* UIImageView+.swift */,
+				FCFACEFB258112B00091ADB4 /* FLAnimatedImageView+Nuke.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +154,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCFACEED25810ED50091ADB4 /* Build configuration list for PBXNativeTarget "FLAnimatedImageDemo" */;
 			buildPhases = (
+				49722DC510BA3C821FC28945 /* [CP] Check Pods Manifest.lock */,
 				FCFACECA25810ED20091ADB4 /* Sources */,
 				FCFACECB25810ED20091ADB4 /* Frameworks */,
 				FCFACECC25810ED20091ADB4 /* Resources */,
@@ -123,6 +172,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCFACEF025810ED50091ADB4 /* Build configuration list for PBXNativeTarget "FLAnimatedImageDemoTests" */;
 			buildPhases = (
+				CD8BE68D460517F78BD75BD5 /* [CP] Check Pods Manifest.lock */,
 				FCFACEE025810ED50091ADB4 /* Sources */,
 				FCFACEE125810ED50091ADB4 /* Frameworks */,
 				FCFACEE225810ED50091ADB4 /* Resources */,
@@ -149,6 +199,7 @@
 				TargetAttributes = {
 					FCFACECD25810ED20091ADB4 = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1170;
 					};
 					FCFACEE325810ED50091ADB4 = {
 						CreatedOnToolsVersion = 11.7;
@@ -195,12 +246,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		49722DC510BA3C821FC28945 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLAnimatedImageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD8BE68D460517F78BD75BD5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FLAnimatedImageDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FCFACECA25810ED20091ADB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCFACEFA258112490091ADB4 /* UIImageView+.swift in Sources */,
 				FCFACED625810ED20091ADB4 /* ViewController.swift in Sources */,
+				FCFACEFC258112B00091ADB4 /* FLAnimatedImageView+Nuke.swift in Sources */,
 				FCFACED225810ED20091ADB4 /* AppDelegate.swift in Sources */,
 				FCFACED425810ED20091ADB4 /* SceneDelegate.swift in Sources */,
 			);
@@ -360,8 +460,10 @@
 		};
 		FCFACEEE25810ED50091ADB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5AAA86504B95A9EB3BDD1AA /* Pods-FLAnimatedImageDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = FLAnimatedImageDemo/Info.plist;
@@ -371,6 +473,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.FLAnimatedImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLAnimatedImageDemo/FLAnimatedImageDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -378,8 +482,10 @@
 		};
 		FCFACEEF25810ED50091ADB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A1DD8D8F137091E52392D57 /* Pods-FLAnimatedImageDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = B8PR34D6DP;
 				INFOPLIST_FILE = FLAnimatedImageDemo/Info.plist;
@@ -389,6 +495,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = jp.yuoku.FLAnimatedImageDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "FLAnimatedImageDemo/FLAnimatedImageDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -396,6 +503,7 @@
 		};
 		FCFACEF125810ED50091ADB4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CCA1C29BC4E2809499B2425 /* Pods-FLAnimatedImageDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -418,6 +526,7 @@
 		};
 		FCFACEF225810ED50091ADB4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10210E64675664B434B47345 /* Pods-FLAnimatedImageDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
